@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+.head {
+  background-color: #f5f5f5;
+  color: rgb(64, 64, 136);
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  position: fixed;
+  top: 0px;
+  width: 1400px;
+}
+.speak,
+.con,
+.van {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+div.tick {
+  background-color: #fdb915;
+  border-radius: 10%;
+  height: 20%;
+  width: 130px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+.ibad {
+  color: #224093;
+  margin-top: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  margin-top: 130px;
+}
+.ib {
+  margin-top: -50px;
+  font-size: 170px;
+}
+.first {
+  font-size: 230px;
+  width: 10000px;
+  margin-top: -110px;
+}
+.line {
+  border: 1px solid black;
+  height: 1px;
+  margin-top: 13px;
+  width: 250px;
+}
+.animie {
+  margin-top: -20px;
+  margin-left: 50px;
+  animation: animie 4s infinite;
+}
+@keyframes animie {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linee {
+  border: 1px solid black;
+  height: 1px;
+  margin-top: 13px;
+  margin-left: -80px;
+  width: 250px;
+}
+.date {
+  margin-left: -50px;
+}
+.circ {
+  color: #00a877;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 16vh;
+  width: 16vh;
+  margin-left: 603px;
+  margin-top: -89px;
+}
+.firstanime {
+  color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 40px;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: -20px;
+}
+.opt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.buy {
+  background-color: #fdb915;
+  border: px solid black;
+  padding-top: 10px;
+  width: 650px;
+  text-align: center;
+}
+.spon {
+  border: 2px solid black;
+  width: 650px;
+  text-align: center;
+}
+.sech {
+  background: linear-gradient(90deg, rgb(202, 150, 9), rgb(86, 121, 193));
+  margin-left: 50px;
+  border-radius: 2%;
+  width: 1250px;
+  text-align: center;
+  height: 50vh;
+  margin-top: 70px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.ven {
+  margin-top: 50px;
+}
+.dat {
+  margin-top: 80px;
+}
+.third {
+  display: grid;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
+}
+.wel {
+  border-bottom: 2px solid orange;
+  width: 550px;
+}
+.about {
+  color: #224093;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 150px;
+  font-size: 17px;
+}
+.venu {
+  color: #051133;
+  margin-top: 70px;
+  font-size: 60px;
+  border-bottom: 2px solid orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+.ven1 {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.uni {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin-top: -300px;
+}
+.se {
+  border-bottom: 2px solid orange;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.speakers {
+  color: #2d4281;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.view {
+  color: #1b2c61;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.one {
+  color: #224093;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.two {
+  color: #224093;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.three {
+  color: #224093;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.four {
+  color: #224093;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.speake{
+margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nam, .post{
+  margin-left: 50px;
+}
+.speak2{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.five{
+  color: #224093;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.six{
+  color: #224093;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}.seven{
+  color: #224093;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}.eight{
+  color: #224093;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
